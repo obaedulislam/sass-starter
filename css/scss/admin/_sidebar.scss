@@ -1,0 +1,44 @@
+.admin {
+    aside {
+        background-color: #000;
+        height: 100vh;
+        width: 250px;
+        padding: 20px 0px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        .brandname {
+            padding: 0px 20px;
+            margin-bottom: 10px;
+            img {
+                width: 90%;
+            }
+        }
+        h1 {
+            font-weight: 500;
+            color: #fff;
+            font-size: 20px;
+            padding: 0px 20px;
+            letter-spacing: 4px;
+        }
+        ul {
+            padding: 0px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            li {
+                a {
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 200;
+                    color: #fff;
+                    padding: 10px 20px;
+                    transition: all 0.5s ease;
+                    &:hover {
+                        background-color: #222222;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
